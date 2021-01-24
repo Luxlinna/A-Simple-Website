@@ -1,0 +1,255 @@
+/* Set fonts */
+/* Colors */
+/* Reset */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Fonts */
+/* Universal */
+body {
+  font: 1em "Aleo", serif;
+  color: #FFFFFF;
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #FFFFFF;
+  text-align: center; }
+
+a {
+  color: #FFFFFF;
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    color: #15161b; }
+
+/* @import "grid"; */
+/* . Bem Text site */
+.text-header {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF; }
+
+.text-description {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: regular;
+  font-size: 16px; }
+
+.text-style {
+  padding-bottom: 46px;
+  padding-right: 50px; }
+
+.text-nav {
+  color: #FFFFFF;
+  font-family: "Aleo", serif;
+  font-weight: regular; }
+
+.site-button {
+  font-family: "Aleo", serif;
+  color: #FFFFFF;
+  background-color: #5474FD;
+  width: 228px;
+  height: 63px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.2px;
+  border: 0;
+  text-align: center;
+  font-size: 16px; }
+
+/* /.Site-header */
+.header-bg {
+  background-image: url(/assets/images/Header.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 820px; }
+
+.text-header__logo {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 4.8px;
+  padding-top: 264px;
+  padding-bottom: 11px; }
+
+.text-description__logo {
+  font-size: 22px;
+  letter-spacing: 6.82px;
+  padding-bottom: 48px; }
+
+/* Form Input */
+.form {
+  display: flex;
+  flex-direction: row;
+  width: 653px;
+  height: 63px;
+  border: 1 solid #999999;
+  margin-left: 558px; }
+
+.input {
+  flex-grow: 2;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2.8px; }
+  .input:focus {
+    outline: none;
+    background-color: #999999;
+    color: #FFFFFF; }
+
+.input__button {
+  width: 153px;
+  height: 63px;
+  letter-spacing: 1.4px; }
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 107px;
+  font-size: 14px;
+  letter-spacing: 2.8px; }
+
+.header-bottom {
+  margin-top: 142px;
+  background-image: url(/assets/images/Rectangle.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 80px; }
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 319px;
+  margin-right: 330px;
+  padding: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+  text-align: center; }
+  .header-nav li {
+    display: inline-block;
+    margin: 0 20px;
+    font: 14px "Aleo", serif;
+    letter-spacing: 0px; }
+  .header-nav a {
+    display: block; }
+
+/* Why Choose Us */
+.whyus {
+  background-image: url(/assets/images/Why-Choose-Us.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 685px; }
+
+.section-whyus {
+  display: flex;
+  flex-direction: row;
+  margin-left: 330px;
+  margin-right: 330px;
+  flex-grow: 50% 50%;
+  justify-content: space-between;
+  text-align: left; }
+
+.section-whyus__title {
+  font-family: "Aleo", serif;
+  font-weight: regular;
+  margin-top: 212px;
+  font-size: 36px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-bottom: 50px; }
+
+.section-whyus__img1 {
+  position: absolute;
+  margin-top: 118px;
+  margin-left: 110px; }
+
+.section-whyus__img2 {
+  position: relative;
+  margin-top: 348px;
+  margin-left: 200px; }
+
+.section-whyus__place {
+  background-image: url(/assets/images/Rectangle2.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 340px;
+  margin-top: -5px; }
+
+.section-whyus__contain {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  margin-left: 330px;
+  margin-right: 397px; }
+
+.section-booking1 {
+  background-image: url(/assets/images/spain.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 700px; }
+
+.booking1 {
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 229px;
+  width: 540px;
+  height: 371px;
+  background-color: #232323;
+  opacity: 0.9;
+  text-align: left; }
+
+.booking-text {
+  margin-top: 47px;
+  margin-left: 30px;
+  margin-bottom: 23px;
+  font-size: 20px;
+  text-align: left; }
+
+.booking-text--style {
+  margin-left: 30px;
+  margin-bottom: 26px;
+  text-align: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+  text-align: center;
+  text-align: left; }
+
+.section-booking2 {
+  background-image: url(/assets/images/spain2.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 700px; }
+
+.booking2 {
+  position: absolute;
+  margin-left: 898px;
+  margin-top: 227px;
+  width: 540px;
+  height: 371px;
+  background-color: #232323;
+  opacity: 0.9;
+  text-align: left; }
+
+/*# sourceMappingURL=index.css.map */

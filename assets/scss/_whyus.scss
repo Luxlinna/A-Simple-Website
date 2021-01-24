@@ -1,0 +1,55 @@
+/* Why Choose Us */
+.whyus {
+    background-image: url(/assets/images/Why-Choose-Us.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width: 1770px;
+    height: 685px;
+}
+.section-whyus {
+    display: flex;
+    flex-direction: row;
+    margin-left: 330px;
+    margin-right: 330px;
+    flex-grow: 50% 50%;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+.section-whyus__title {
+    font-family: $body;
+    font-weight: regular;
+    margin-top: 212px;
+    font-size: 36px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.section-whyus__img1 {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 110px;
+}
+.section-whyus__img2 {
+    position: relative;
+    margin-top: 348px; 
+    margin-left: 200px;
+}
+
+.section-whyus__place  {
+    background-image: url(/assets/images/Rectangle2.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width: 1770px;
+    height: 340px;
+    margin-top: -5px;
+}
+
+.section-whyus__contain {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    margin-left: 330px;
+    margin-right: 397px;
+}
