@@ -8,12 +8,14 @@
   margin: 0;
   padding: 0; }
 
-/* Fonts */
+/* Fonts &  Icons */
 /* Universal */
 body {
   font: 1em "Aleo", serif;
   color: #FFFFFF;
-  text-align: center; }
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Josefin Sans", sans-serif;
@@ -26,7 +28,6 @@ a {
   a:hover, a:focus, a:active {
     color: #15161b; }
 
-/* @import "grid"; */
 /* . Bem Text site */
 .text-header {
   font-family: "Josefin Sans", sans-serif;
@@ -63,6 +64,8 @@ a {
   border: 0;
   text-align: center;
   font-size: 16px; }
+  .site-button:hover, .site-button:active, .site-button:focus {
+    color: #15161b; }
 
 /* /.Site-header */
 .header-bg {
@@ -103,7 +106,7 @@ a {
   text-align: center;
   font-size: 14px;
   letter-spacing: 2.8px; }
-  .input:focus {
+  .input:focus, .input:hover, .input:active {
     outline: none;
     background-color: #999999;
     color: #FFFFFF; }
@@ -360,7 +363,7 @@ a {
   width: 807px;
   height: 95px;
   justify-content: space-between;
-  margin-top: -40px;
+  margin-top: -30px;
   margin-left: -10px; }
 
 .section-searching__text {

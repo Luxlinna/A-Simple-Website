@@ -5,9 +5,8 @@
     padding: 0;
 }
 
+/* Fonts &  Icons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
-/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap');
 
 /* Universal */
@@ -15,6 +14,8 @@ body {
     font: 1em $body;
     color: $text-color;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
