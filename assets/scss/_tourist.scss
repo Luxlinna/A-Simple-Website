@@ -4,9 +4,46 @@
     background-repeat: no-repeat, repeat;
     width: 1770px;
     height: 731px;
+    position: absolute;
 }
 
 .tourist-text {
+    position: absolute;
     font-size: 36px;
+    margin-top: 128px;
+    margin-left: 690px;
+    margin-bottom: 91px;
 }
 
+.tourist-box {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 445px 1fr;
+}
+
+.tourist-box__img {
+    position: absolute;
+    margin-top: 247px;
+    margin-left: 331px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.tourist-box__text{
+    position: absolute;
+    margin-top: 247px;
+    margin-left: 773px;
+    width: 668px;
+    height: 287px;
+    background-color: $box-color;
+    color: $text-color;
+    text-align: left
+}
+
+.tourist-box__text-style {
+    @include uppercase();
+    font-size: 20px;
+    margin-top: 49px;
+    margin-left: 62px;
+    text-align: left;
+}
