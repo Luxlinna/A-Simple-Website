@@ -1,5 +1,6 @@
 /* Set fonts */
 /* Colors */
+/* $border-botton: #5474FD; */
 /* Reset */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap");
@@ -184,22 +185,6 @@ a {
   margin-top: 348px;
   margin-left: 200px; }
 
-.section-whyus__place {
-  background-image: url(/assets/images/Rectangle2.png);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-  width: 1770px;
-  height: 340px;
-  margin-top: -5px; }
-
-.section-whyus__contain {
-  display: grid;
-  grid-template-columns: repeat(12, auto);
-  grid-template-rows: repeat(3, auto);
-  gap: 10px;
-  margin-left: 330px;
-  margin-right: 397px; }
-
 .section-booking1 {
   background-image: url(/assets/images/spain.png);
   background-position: right bottom, left top;
@@ -258,9 +243,10 @@ a {
   background-repeat: no-repeat, repeat;
   width: 1770px;
   height: 731px;
-  position: absolute; }
+  /*     position: absolute;
+   */ }
 
-.tourist-text {
+.tourist-title {
   position: absolute;
   font-size: 36px;
   margin-top: 128px;
@@ -289,14 +275,77 @@ a {
   color: #FFFFFF;
   text-align: left; }
 
-.tourist-box__text-style {
+.tourist-style {
   text-transform: uppercase;
   letter-spacing: 4.8px;
   font-weight: bold;
   text-align: center;
   font-size: 20px;
-  margin-top: 49px;
+  margin-top: 49px; }
+
+.tourist-box__icons {
+  font-size: 36px;
+  color: #5474FD; }
+
+.tourist-text {
   margin-left: 62px;
-  text-align: left; }
+  text-align: left;
+  color: #E8E8E8; }
+
+.footer {
+  background-image: url(/assets/images/footer.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 271px;
+  position: absolute;
+  margin-top: -5px;
+  text-align: center; }
+
+.footer-logo {
+  margin-top: 122px;
+  margin-bottom: 11px;
+  font-size: 24px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+  text-align: center; }
+
+.footer-logo__style {
+  letter-spacing: 1.6px; }
+
+.footer-nav {
+  margin-top: 29px;
+  display: flex;
+  flex-direction: row;
+  width: 166px;
+  position: absolute;
+  margin-left: 804px;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 16px; }
+
+.footer-nav__icons {
+  color: #5474FD;
+  font-weight: bold;
+  font-family: "Aleo", serif; }
+
+.searching {
+  background-image: url(/assets/images/Rectangle2.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 1770px;
+  height: 340px;
+  text-align: center;
+  /*     margin-top: -5px;
+   */ }
+
+.section-searching {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 330px;
+  margin-right: 397px; }
 
 /*# sourceMappingURL=index.css.map */

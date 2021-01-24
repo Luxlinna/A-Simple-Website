@@ -35,21 +35,3 @@
     margin-top: 348px; 
     margin-left: 200px;
 }
-
-.section-whyus__place  {
-    background-image: url(/assets/images/Rectangle2.png);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    width: 1770px;
-    height: 340px;
-    margin-top: -5px;
-}
-
-.section-whyus__contain {
-    display: grid;
-    grid-template-columns: repeat(12, auto);
-    grid-template-rows: repeat(3, auto);
-    gap: 10px;
-    margin-left: 330px;
-    margin-right: 397px;
-}

@@ -1,0 +1,40 @@
+.footer {
+    background-image: url(/assets/images/footer.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width: 1770px;
+    height: 271px;
+    position: absolute;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-top: 122px;
+    margin-bottom: 11px;
+    font-size: 24px;
+    letter-spacing: 3.36px;
+    @include uppercase();
+}
+
+.footer-logo__style {
+    letter-spacing: 1.6px;
+
+}
+.footer-nav {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    width: 166px;
+    position: absolute;
+    margin-left: 804px;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.footer-nav__icons {
+    color: $style-color;
+    font-weight: bold;
+    font-family: $body;
+}

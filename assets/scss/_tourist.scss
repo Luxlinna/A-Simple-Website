@@ -4,10 +4,10 @@
     background-repeat: no-repeat, repeat;
     width: 1770px;
     height: 731px;
-    position: absolute;
-}
+/*     position: absolute;
+ */}
 
-.tourist-text {
+.tourist-title {
     position: absolute;
     font-size: 36px;
     margin-top: 128px;
@@ -40,10 +40,19 @@
     text-align: left
 }
 
-.tourist-box__text-style {
+.tourist-style {
     @include uppercase();
     font-size: 20px;
     margin-top: 49px;
+}
+
+.tourist-box__icons  {
+   font-size: 36px;
+   color: $style-color;
+}
+
+.tourist-text {
     margin-left: 62px;
     text-align: left;
+    color: $color-box;
 }
