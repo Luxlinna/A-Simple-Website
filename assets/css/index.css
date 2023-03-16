@@ -338,7 +338,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer {
-  background-image: url(../images/footer.png);
+  background-image: url(../images/Footer.png);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
   width: 1770px;
